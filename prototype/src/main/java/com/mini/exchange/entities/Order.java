@@ -10,6 +10,8 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.Objects;
 
+//TO DO: to use mariadb
+
 @Entity
 @Getter
 @Setter

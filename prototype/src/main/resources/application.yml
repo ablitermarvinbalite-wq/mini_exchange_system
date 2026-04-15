@@ -22,3 +22,6 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+
+#to do: use maria db
+#to do: save sql scripts in a folder
