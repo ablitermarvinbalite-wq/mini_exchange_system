@@ -1,0 +1,27 @@
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/exchange_db
+#    username: postgres
+#    password: your_password
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        format_sql: true
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+#to do: use maria db
+#to do: save sql scripts in a folder
